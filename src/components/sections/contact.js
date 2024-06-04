@@ -60,8 +60,11 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        Although I’m not currently looking for any new opportunities, my inbox is always open.
-        Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+        Since I'm actively seeking new job opportunities, I welcome any potential prospects or
+        connections that could lead to suitable roles. Feel free to reach out if you have an opening
+        that aligns with my skills and experience. I'll make sure to carefully review and promptly
+        respond to any inquiries you may have. I'm excited to explore possibilities that could be a
+        great mutual fit.
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>

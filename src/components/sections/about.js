@@ -125,7 +125,19 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'JavaScript',
+    'TypeScript',
+    'React',
+    'Next.js',
+    'Node.js',
+    'Java',
+    'Trpc',
+    'Mongodb',
+    'PostgreSQL',
+    'Git',
+    'Github',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -134,34 +146,27 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
-            </p>
-
-            <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
+            <div>
+              Hello! My name is Amit Sharma. I am undergrad student pursuing my bachelors degree in
+              computer science branch from Vidyalankar Institute Of Technology, Mumbai, India. I am
+              Enthusiastic about Open Source, Full-stack Development, Software Development and
+              Hackathons.
+            </div>
+            <div>
+              I have participated in various government held hackathon like{' '}
+              <a href="https://sih.gov.in/sih2023" target="_blank" rel="noreferrer">
+                Smart India Hackathon 2023
               </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
-            </p>
-
-            <p>Here are a few technologies I’ve been working with recently:</p>
+              <a
+                href="https://sih.gov.in/sih-2022-senior-final-result"
+                target="_blank"
+                rel="noreferrer">
+                Smart India Hackathon 2022
+              </a>{' '}
+              <a href="https://kavach.mic.gov.in/" target="_blank" rel="noreferrer">
+                Kavach Cybersecurity Hackathon
+              </a>{' '}
+            </div>
           </div>
 
           <ul className="skills-list">
@@ -173,7 +178,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/me.JPG"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}

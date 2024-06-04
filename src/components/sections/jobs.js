@@ -141,6 +141,10 @@ const StyledTabPanel = styled.div`
   height: auto;
   padding: 10px 5px;
 
+  .jobs-html > ul > li > a {
+    color: var(--green);
+  }
+
   ul {
     ${({ theme }) => theme.mixins.fancyList};
   }
@@ -181,6 +185,10 @@ const Jobs = () => {
               url
             }
             html
+            headings {
+              depth
+              value
+            }
           }
         }
       }
@@ -296,7 +304,7 @@ const Jobs = () => {
 
                     <p className="range">{range}</p>
 
-                    <div dangerouslySetInnerHTML={{ __html: html }} />
+                    <div className="jobs-html" dangerouslySetInnerHTML={{ __html: html }} />
                   </StyledTabPanel>
                 </CSSTransition>
               );

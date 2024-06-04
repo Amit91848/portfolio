@@ -60,28 +60,26 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Amit Sharma</h2>;
+  const three = <h3 className="big-heading">Open Source Enthusiast and Software Developer</h3>;
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
-        </a>
-        .
+        I have been actively contributing to{' '}
+        <a href="https://cal.com" target="_blank" rel="noreferrer">
+          Cal.com
+        </a>{' '}
+        and have previously interned at{' '}
+        <a href="https://val2biz.com/" target="_blank" rel="noreferrer">
+          Val2Biz Solutions
+        </a>{' '}
+        and <a href="https://www.billmart.com/">BillMart Fin Tech.</a> .
       </p>
     </>
   );
   const five = (
-    <a
-      className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
-      target="_blank"
-      rel="noreferrer">
-      Check out my course!
+    <a className="email-link" href="https://github.com/Amit91848" target="_blank" rel="noreferrer">
+      Check out my contributions!
     </a>
   );
 
